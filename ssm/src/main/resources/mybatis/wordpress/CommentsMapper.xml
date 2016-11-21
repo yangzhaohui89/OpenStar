@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wordpress.common.mapper.CommentsMapper">
+
+	<!-- 通用查询结果列-->
+	<sql id="Base_Column_List">
+		comment_ID AS commentId, comment_post_ID AS commentPostId, comment_author AS commentAuthor, comment_author_email AS commentAuthorEmail, comment_author_url AS commentAuthorUrl, comment_author_IP AS commentAuthorIp, comment_date AS commentDate, comment_date_gmt AS commentDateGmt, comment_content AS commentContent, comment_karma AS commentKarma, comment_approved AS commentApproved, comment_agent AS commentAgent, comment_type AS commentType, comment_parent AS commentParent, user_id AS userId
+	</sql>
+
+</mapper>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wordpress.common.mapper.PostsMapper">
+
+	<!-- 通用查询结果列-->
+	<sql id="Base_Column_List">
+		ID, post_author AS postAuthor, post_date AS postDate, post_date_gmt AS postDateGmt, post_content AS postContent, post_title AS postTitle, post_excerpt AS postExcerpt, post_status AS postStatus, comment_status AS commentStatus, ping_status AS pingStatus, post_password AS postPassword, post_name AS postName, to_ping AS toPing, pinged, post_modified AS postModified, post_modified_gmt AS postModifiedGmt, post_content_filtered AS postContentFiltered, post_parent AS postParent, guid, menu_order AS menuOrder, post_type AS postType, post_mime_type AS postMimeType, comment_count AS commentCount
+	</sql>
+
+</mapper>
